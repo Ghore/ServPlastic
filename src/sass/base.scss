@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+// body {
+
+// }
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    width: 724px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 940px;
+  }
+}
