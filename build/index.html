@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Placeholder title</title><link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css"><!-- Сюда будет всталена ссылка на файл стилей --><!-- inject:css --><link rel="stylesheet" href="css/styles.css"><!-- endinject --></head><body><header><div class="container"><!-- <nav class="navigation">
+          <a href="#">
+            <img src="../images/logo.png" alt="logo" class="navigation__logo" />
+          </a>
+          <ul class="navigation__list">
+            <li class="navigation__list-item">Блог</li>
+            <li class="navigation__list-item">О нас</li>
+            <li class="navigation__list-item">Контакты</li>
+          </ul>
+          <button class="localization">RU</button>
+        </nav> --><div class="menuwrapper"><a href="#"><img src="../images/logo.png" alt="logo" class="navigation__logo"> </a><input type="checkbox" id="togglebox"> <label for="togglebox" id="navtoggler"></label><nav id="expand-fullpagemenu"><label for="togglebox" id="closex">Close</label><ul><li><a href="">Home</a></li><li><a href="#main-section">О нас</a></li><li><a href="#sliders">Блог</a></li><li><a href="#contacts">Контакты</a></li></ul><!-- <button class="localization">RU</button> --></nav></div></div><!-- <p>
+        <a href="#" onClick="expandfullscreenmenu('open')">Arbitrary Open Menu link</a><br />
+        <a href="#" onClick="expandfullscreenmenu('close')">Arbitrary Close Menu link</a><br />
+        <a href="#" onClick="expandfullscreenmenu()">Arbitrary Toggle Menu link</a>
+       
+        </p> --></header><section class="main__section" id="main-section"><div class="container"><h1 class="title">Ремонт пластика</h1><a href="tel:+380(93)00-000-00" class="our-number">+380(93)00-000-00</a><p class="title__description">Сваривание пластика методом термической обработки деталей</p><div class="form__wrapper"><form action="action"><label for=""><input class="from__input-name" type="text"></label> <label for=""><input class="from__input-phone" type="phone"></label> <button class="form__button">Перезвоните</button></form></div></div></section><!-- //= --><!-- Сюда будет всталена ссылка на файл скриптов --><!-- inject:js --><!-- endinject --><script>// Extra function to control menu state from anywhere on your page/ inside your script
+      function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
+        var togglebox = document.getElementById("togglebox")
+        var newstate =	(action == 'open')? true : (action == 'close')? false : !togglebox.checked
+        togglebox.checked = newstate
+      }</script></body></html>
