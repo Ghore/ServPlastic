@@ -1,0 +1,23 @@
+.amazing__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  text-align: center;
+
+}
+
+
+.amazing__list_item {
+  flex-basis: 300px;
+}
+
+// :not(:nth-child(3n))
+// .amazing__list_item {
+//   margin-right: 60px;
+// }
+
+// :nth-child(-n + 3)
+.amazing__list_item {
+  margin-bottom: 106px;
+}

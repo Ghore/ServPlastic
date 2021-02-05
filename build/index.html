@@ -1,4 +1,24 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Placeholder title</title><link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css"><!-- Сюда будет всталена ссылка на файл стилей --><!-- inject:css --><link rel="stylesheet" href="css/styles.css"><!-- endinject --></head><body><header><div class="container"><!-- <nav class="navigation">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Placeholder title</title>
+    <link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css">
+    <!-- Сюда будет всталена ссылка на файл стилей -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endinject -->
+   
+  </head>
+
+  <body>
+    <header>
+      
+      <div class="container">
+      
+        <!-- <nav class="navigation">
           <a href="#">
             <img src="../images/logo.png" alt="logo" class="navigation__logo" />
           </a>
@@ -8,16 +28,292 @@
             <li class="navigation__list-item">Контакты</li>
           </ul>
           <button class="localization">RU</button>
-        </nav> --><div class="menuwrapper"><a href="#"><img src="images\logo.png" alt="logo" class="navigation__logo"> </a><input type="checkbox" id="togglebox"> <label for="togglebox" id="navtoggler"></label><nav id="expand-fullpagemenu"><label for="togglebox" id="closex">Close</label><ul><li><a href="">Home</a></li><li><a href="#main-section">О нас</a></li><li><a href="#sliders">Блог</a></li><li><a href="#contacts">Контакты</a></li></ul><!-- <button class="localization">RU</button>
+        </nav> -->
+        <div class="menuwrapper">
+            <a href="#">
+          <img src="images\logo.png" alt="logo" class="navigation__logo" />
+        </a>
+          <input type="checkbox" id="togglebox" />
+          <label for="togglebox" id="navtoggler"></label>
+      
+          <nav id="expand-fullpagemenu">
+            <label for="togglebox" id="closex">Close</label>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="#main-section">О нас</a></li>
+              <li><a href="#sliders">Блог</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <!-- <button class="localization">RU</button>
             <button class="localization">RU</button>
-            <button class="localization">RU</button> --></nav></div></div><!-- <p>
+            <button class="localization">RU</button> -->
+          </nav>
+        </div>
+      </div>
+    
+      <!-- <p>
         <a href="#" onClick="expandfullscreenmenu('open')">Arbitrary Open Menu link</a><br />
         <a href="#" onClick="expandfullscreenmenu('close')">Arbitrary Close Menu link</a><br />
         <a href="#" onClick="expandfullscreenmenu()">Arbitrary Toggle Menu link</a>
        
-        </p> --></header><section class="main__section" id="main-section"><div class="container"><h1 class="title">Ремонт пластика</h1><a href="tel:+380(93)00-000-00" class="our-number">+380(93)00-000-00</a><p class="title__description">Сваривание пластика методом термической обработки деталей</p><div class="form__wrapper"><form action="action"><label for=""><input class="from__input-name" type="text"></label> <label for=""><input class="from__input-phone" type="phone"></label> <button class="form__button">Перезвоните</button></form></div></div></section><!-- //= --><!-- Сюда будет всталена ссылка на файл скриптов --><!-- inject:js --><!-- endinject --><script>// Extra function to control menu state from anywhere on your page/ inside your script
+        </p> -->
+    </header>
+    <section class="main__section" id="main-section">
+      <div class="container">
+        <h1 class="title">Ремонт пластика</h1>
+        <a href="tel:+380(93)00-000-00" class="our-number">+380(93)00-000-00</a>
+    
+        <p class="title__description">
+          Сваривание пластика методом термической обработки деталей
+        </p>
+    <div class="form__wrapper">
+      <form action="action">
+        <label for="">
+          <input class="from__input-name" type="text">
+        </label>
+        <label for="">
+          <input class="from__input-phone" type="phone">
+        </label>
+        <button class="form__button">Перезвоните</button>
+      </form>
+    </div>
+      </div>
+    </section>
+    <!-- <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <div style="height: 250px; background: orange;">1</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: green;">2</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: violet;">3</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: coral;">4</div>
+        </div>
+      </div>
+      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+    </div>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <div style="height: 250px; background: orange;">1</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: green;">2</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: violet;">3</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: coral;">4</div>
+        </div>
+      </div>
+      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+    </div>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <div style="height: 250px; background: orange;">1</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: green;">2</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: violet;">3</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: coral;">4</div>
+        </div>
+      </div>
+      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+    </div>
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <div style="height: 250px; background: orange;">1</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: green;">2</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: violet;">3</div>
+        </div>
+        <div class="slider__item">
+          <div style="height: 250px; background: coral;">4</div>
+        </div>
+      </div>
+      <a class="slider__control slider__control_left" href="#" role="button"></a>
+      <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+    </div> -->
+    <h3 class="slider__title">Бампера</h3>
+    <div class="sim-slider" id="first">
+      <ul class="sim-slider-list">
+        <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="0"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="1"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="2"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="3"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="4"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="5"></li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+    
+    <h3 class="slider__title">Мотопластик</h3>
+    <div class="sim-slider" id="second">
+      <ul class="sim-slider-list">
+        <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="0"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="1"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="2"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="3"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="4"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="5"></li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+    
+    <h3 class="slider__title">Топливные баки. Бачки охлаждения</h3>
+    <div class="sim-slider" id="third">
+      <ul class="sim-slider-list">
+        <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="0"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="1"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="2"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="3"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="4"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="5"></li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+    
+    <h3 class="slider__title">Бытовой пластмас</h3>
+    <div class="sim-slider" id="four">
+      <ul class="sim-slider-list">
+        <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="0"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="1"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="2"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="3"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="4"></li>
+        <li class="sim-slider-element"><img src="../images/firstSection.png" alt="5"></li>
+      </ul>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+      <div class="sim-slider-dots"></div>
+    </div>
+    <div class="container">
+      <ul class="amazing__list">
+        <li class="amazing__list_item">
+          <div class="amazing__list_icon_wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="./img/pseudo/sprite.svg#ALARM"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+    
+        <li class="amazing__list_item">
+          <div class="amazing__list_icon_wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="img/pseudo/sprite.svg#LINE_GRAPH"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+        <li class="amazing__list_item">
+          <div class="amazing__list_icon_wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="img/pseudo/sprite.svg#COMPUTER_OK"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+        <li class="amazing__list_item">
+          <div class="amazing__list-icon-wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="./img/pseudo/sprite.svg#BOOK_2"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+        <li class="amazing__list_item">
+          <div class="amazing__list_icon_wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="img/pseudo/sprite.svg#HOME"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+        <li class="amazing__list_item">
+          <div class="amazing__list_icon_wrapper">
+            <!-- <svg class="amazing__list_icon">
+                  <use href="img/pseudo/sprite.svg#IMAGE"></use>
+                </svg> -->
+          </div>
+          <h2 class="amazing__list_name">Твой вариант</h2>
+          <p class="amazing__list_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut
+            cupiditate eveniet dolore.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div id="map"></div>
+    <!-- //= -->
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <script src="js/scripts.js"></script>
+    <!-- endinject -->
+
+
+    <script>
+
+      // Extra function to control menu state from anywhere on your page/ inside your script
       function expandfullscreenmenu(action){ //param: 'open', 'close', or empty to toggle menu state
         var togglebox = document.getElementById("togglebox")
         var newstate =	(action == 'open')? true : (action == 'close')? false : !togglebox.checked
         togglebox.checked = newstate
-      }</script></body></html>
+      }
+      
+    </script>
+     <!-- <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDajRBPlECv3312cYH8Dd_Tmtlu4PlS724&callback=initMap&libraries=&v=weekly"
+ acync    defer
+   ></script> -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/map.js"></script>
+  </body>
+</html>

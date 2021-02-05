@@ -9,11 +9,15 @@
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
     <!-- endinject -->
+   
   </head>
 
   <body>
     //= html/header.html
     //= html/first-section.html
+    //= html/sliders.html
+    //= html/about.html
+    //= html/map.html
     <!-- //= -->
     <!-- Сюда будет всталена ссылка на файл скриптов -->
     <!-- inject:js -->
@@ -28,7 +32,13 @@
         var newstate =	(action == 'open')? true : (action == 'close')? false : !togglebox.checked
         togglebox.checked = newstate
       }
-    
+      
     </script>
+     <!-- <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDajRBPlECv3312cYH8Dd_Tmtlu4PlS724&callback=initMap&libraries=&v=weekly"
+ acync    defer
+   ></script> -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/map.js"></script>
   </body>
 </html>
