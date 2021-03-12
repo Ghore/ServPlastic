@@ -1,9 +1,11 @@
 .title__about {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: $montserrat;
   font-weight: 400;
   // letter-spacing: 2px;
   font-size: 18px;
+
 }
 
 

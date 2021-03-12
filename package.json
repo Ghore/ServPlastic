@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://https://github.com/Ghore/ServPlastic",
+  "homepage": "https://ghore.github.io/ServPlastic",
   "repository": {
     "type": "git",
     "url": "git+https://https://github.com/Ghore/ServPlastic"

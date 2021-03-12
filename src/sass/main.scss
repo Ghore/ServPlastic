@@ -1,13 +1,13 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-@import './helpers/variables.scss';
-@import './helpers/fonts.scss';
+@import 'variables.scss';
+@import 'fonts.scss';
 @import 'normalize.scss';
 @import 'base.scss';
 
-@import 'components/header.scss';
-@import 'components/firstSection.scss';
-@import 'components/sliders.scss';
-@import 'components/about.scss';
-@import 'components/map.scss';
+@import 'header.scss';
+@import 'firstSection.scss';
+@import 'sliders.scss';
+@import 'about.scss';
+@import 'map.scss';
