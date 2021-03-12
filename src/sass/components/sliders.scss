@@ -79,8 +79,16 @@
 //   text-align: center;
 // }
 
-.slider__title{
+.slider__title {
+  font-family: $roboto;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 28px;
   text-align: center;
+}
+
+.slider__title{
+  padding-top: 18px;
 }
 
 img {

@@ -1,23 +1,56 @@
-.amazing__list {
+.title__about {
+  text-align: center;
+  font-family: $montserrat;
+  font-weight: 400;
+  // letter-spacing: 2px;
+  font-size: 18px;
+}
+
+
+.about__list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 48px;
   text-align: center;
+  align-items: baseline;
 
 }
 
+.about__list_name {
+  text-align: center;
+  font-family: $roboto;
+  font-weight: 600;
+  // letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
 
-.amazing__list_item {
+.about__list_description {
+  text-align: center;
+  font-family: $montserrat;
+  font-weight: 400;
+  // letter-spacing: 2px;
+  font-size: 18px;
+  
+}
+
+.about__list_item {
   flex-basis: 300px;
 }
 
 // :not(:nth-child(3n))
-// .amazing__list_item {
+// .about__list_item {
 //   margin-right: 60px;
 // }
 
 // :nth-child(-n + 3)
-.amazing__list_item {
-  margin-bottom: 106px;
+.about__list_item {
+  margin-bottom: 48px;
+}
+
+.about__list_icon_wrapper {
+  width: 78px;
+  margin: 0 auto;
+  margin-bottom: 12px;
 }
